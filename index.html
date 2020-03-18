@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="miformulario.com">
+            <h2>Formulario</h2>
+            <input type="hidden" name="id" value="123">
+            <br>
+
+            <label>
+                <h3>Nombre</h3>
+                <input type="text" name="nombre" id="nombre">
+            </label>
+
+            <br>
+
+            <label>
+                <h3>Apellido</h3>
+                <input type="text" name="apellido" id="apellido">
+            </label>
+
+            <br>
+
+            <label>
+                <h3>Edad</h3>
+                <input type="number" name="edad" id="edad">
+            </label>
+
+            <br>
+
+            <label>
+                <h3>Nacionalidad</h3>
+                <select name="pais" id="pais">
+                    <option value disabled selected></option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Chile">Chile</option>
+                </select>
+            </label>
+
+            <br>
+
+            <h3>Tecnologías</h3>
+            <label>
+                <input type="checkbox" name="frontend" value="frontend"><strong>Frontend</strong>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="fullstack" value="fullstack"><strong>Fullstack</strong>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="backend" value="backend"><strong>Backend</strong>
+            </label>
+
+            <h3>¿Sos mayor de edad?</h3>
+            <label>
+                <input type="radio" name="mayor-edad" id="si"><strong>Si</strong>
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="mayor-edad" id="no"><strong>No</strong>
+            </label>
+
+            <br>
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+    </body>
+</html>
